@@ -32,21 +32,24 @@ Usamos **Kanban** sobre GitHub Projects porque:
 
 ## 3. Tarjetas iniciales
 
-| # | Tarjeta | Prioridad | Estado | Responsable |
-|---|---------|-----------|--------|-------------|
-| 1 | Análisis de requisitos del sistema | Alta | En progreso | Analista |
-| 2 | Configuración del tablero y documentación inicial | Media | En revisión | Responsable del tablero |
-| 3 | Modelado de datos: contenedores, almacenes, áreas y clientes | Alta | Por hacer | Responsable de modelado |
-| 4 | Módulo de registro de arribo y asignación de ubicación | Alta | Por hacer | Apoyo técnico |
-| 5 | Módulo de consultas y reportes | Media | Backlog | Apoyo técnico |
-| 6 | Control de 90 días y almacén de donaciones | Media | Backlog | Responsable de modelado |
+| # | Tarjeta | Prioridad | Estado | Rol | Asignado |
+|---|---------|-----------|--------|-----|----------|
+| 1 | Análisis de requisitos del sistema | Alta | En progreso | Analista | @ismaira-l |
+| 2 | Configuración del tablero y documentación inicial | Media | En revisión | Líder de proyecto | @raas03 |
+| 3 | Modelado de datos: contenedores, almacenes, áreas y clientes | Alta | Por hacer | Arquitecto / Modelado | @100095020-gif |
+| 4 | Módulo de registro de arribo y asignación de ubicación | Alta | Por hacer | Desarrollador | @100095020-gif |
+| 5 | Módulo de consultas y reportes | Media | Backlog | Desarrollador | @josevalentinet304-spec |
+| 6 | Control de 90 días y almacén de donaciones | Media | Backlog | Desarrollador | @josevalentinet304-spec |
 
 ## 4. Roles del equipo
 
 | Rol | Responsabilidad | Integrante |
 |-----|-----------------|------------|
-| Analista | Levanta y documenta los requisitos y las reglas de negocio. | _por asignar_ |
-| Responsable del tablero | Mantiene el tablero Kanban al día, prioriza y da seguimiento. | _por asignar_ |
-| Responsable de modelado | Diseña el modelo de datos y los diagramas del sistema. | _por asignar_ |
-| Responsable de documentación | Redacta y organiza la documentación del proyecto. | _por asignar_ |
-| Apoyo técnico | Apoya el diseño técnico de los módulos y la configuración del repositorio. | _por asignar_ |
+| Líder de proyecto (responsable del tablero) | Planifica, prioriza el backlog, mantiene el tablero Kanban al día y coordina al equipo. | @raas03 |
+| Analista | Levanta y documenta los requisitos funcionales y no funcionales y las reglas de negocio. | @ismaira-l |
+| Arquitecto / Responsable de modelado | Diseña el modelo de datos, los diagramas y la arquitectura del sistema. | @100095020-gif |
+| Desarrollador | Implementa los módulos del sistema (registro, asignación de ubicación, consultas y donaciones). | @100095020-gif, @josevalentinet304-spec |
+| QA (control de calidad) | Define los casos de prueba, verifica que cada tarjeta cumpla sus criterios de aceptación y la mueve de *En revisión* a *Finalizado*. | @ismaira-l |
+| Responsable de documentación | Redacta y organiza la documentación del proyecto y el README. | @raas03 |
+
+Cada integrante cubre dos roles por el tamaño del equipo. QA lo lleva una persona que no desarrolla, para que nadie apruebe su propio trabajo.
